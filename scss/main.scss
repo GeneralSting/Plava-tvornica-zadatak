@@ -50,7 +50,6 @@ $slider-title: rgb(30, 149, 240);
     border-radius: 10px;
 }
 
-
 #slider-second-row
 {
     display: grid;
@@ -71,6 +70,14 @@ $slider-title: rgb(30, 149, 240);
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
+}
+
+#slider-first-row div:not(:first-of-type) {
+    opacity: 0.8;
+}
+
+#slider-second-row div:not(:first-of-type) {
+    opacity: 0.8;
 }
 
 .slide-btns {
